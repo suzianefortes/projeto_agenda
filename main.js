@@ -7,8 +7,8 @@ form.addEventListener('submit', function(e){
     const inputTelefone = document.getElementById('Telefone');   
 
     let linha = '<tr>';
-    linha += `<td>${inputNome.value} /<td>`;
-    linha += `<td>${inputTelefone.value} /<td>`;
+    linha += `<td>${inputNome.value} </td>`;
+    linha += `<td>${inputTelefone.value} </td>`;
     linha += '</tr>';
 
     linhas += linha;
